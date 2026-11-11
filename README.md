@@ -64,23 +64,112 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-govtube-us is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
+GovTube is a searchable platform that indexes official U.S. government video content, allowing users to find every instance where a word or phrase was spoken by officials. The service provides free, ad‑free access with citations and playback from any point in the video.
 
-**Areas:** Company
+**Areas:** Search · Government · Video · API · Free
 
 ## GovTube on APIs.io
 
 Everything profiled for GovTube is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/govtube-us/](https://apis.io/providers/govtube-us/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [GovTube Citations API](https://apis.io/apis/govtube-us/govtube-us-citations-api/) — The Citations API from GovTube — 1 operation(s) for citations.
+- [GovTube Coverage API](https://apis.io/apis/govtube-us/govtube-us-coverage-api/) — The Coverage API from GovTube — 1 operation(s) for coverage.
+- [GovTube Healthz API](https://apis.io/apis/govtube-us/govtube-us-healthz-api/) — The Healthz API from GovTube — 1 operation(s) for healthz.
+- [GovTube Search API](https://apis.io/apis/govtube-us/govtube-us-search-api/) — The Search API from GovTube — 1 operation(s) for search.
+- [GovTube Speakers API](https://apis.io/apis/govtube-us/govtube-us-speakers-api/) — The Speakers API from GovTube — 1 operation(s) for speakers.
+- [GovTube Videos API](https://apis.io/apis/govtube-us/govtube-us-videos-api/) — The Videos API from GovTube — 3 operation(s) for videos.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [GovTube Agentic Access](https://apis.io/agentic-access/govtube-us/govtube-us-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CitationResult](https://apis.io/schemas/govtube-us/govtube-us-citation-result/)
+- [CoverageInfo](https://apis.io/schemas/govtube-us/govtube-us-coverage-info/)
+- [SearchResponse](https://apis.io/schemas/govtube-us/govtube-us-search-response/)
+- [SpeakerProfile](https://apis.io/schemas/govtube-us/govtube-us-speaker-profile/)
+- [VideoDetail](https://apis.io/schemas/govtube-us/govtube-us-video-detail/)
+- [VideoResult](https://apis.io/schemas/govtube-us/govtube-us-video-result/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Govtube Us Context](https://apis.io/jsonld/govtube-us/govtube-us-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [GovTube API Rules](https://apis.io/rules/govtube-us/govtube-us-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [GovTube Domain Security](https://apis.io/security/govtube-us/govtube-us-domain-security/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://govtube.us/)
+- [API reference](https://api.govtube.us/docs)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/govtube-us/](https://apis.io/providers/govtube-us/).
+**Kin Score 32.8** — thin · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 52.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 13.2 |
+
+**Agent readiness 28.8** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.8** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/govtube-us/](https://apis.io/providers/govtube-us/).
 
 ## How this profile is made
 
